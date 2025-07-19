@@ -1,0 +1,15 @@
+$orange      : #FFA81A;
+$white       : #FFFFFF;
+$light-grey  : #D8D8D8;
+$dark-grey   : #A7A7A7;
+$font-grey   : #9F9F9F;
+$light-green : #F6FCF9;
+
+:root {
+  --q-orange      : #{$orange};
+  --q-white       : #{$white};
+  --q-light-grey  : #{$light-grey};
+  --q-dark-grey   : #{$dark-grey};
+  --q-font-grey   : #{$font-grey};
+  --q-light-green : #{$light-green};
+}
