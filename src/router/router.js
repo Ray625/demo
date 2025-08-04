@@ -8,17 +8,6 @@ const routes = [
       {
         path: "demo",
         name: "entrance",
-        component: () => import("@/views/entrance.vue"),
-      },
-    ],
-  },
-  {
-    path: "/product",
-    component: BaseLayout,
-    children: [
-      {
-        path: "Upload",
-        name: "productUpload",
         component: () => import("@/views/products/ProductUpload.vue"),
       },
     ],
