@@ -1,15 +1,13 @@
-$orange      : #FFA81A;
-$white       : #FFFFFF;
-$light-grey  : #D8D8D8;
-$dark-grey   : #A7A7A7;
-$font-grey   : #9F9F9F;
-$light-green : #F6FCF9;
+$white: #ffffff;
+$light-grey: #d8d8d8;
+$font-grey: #9f9f9f;
 
 :root {
-  --q-orange      : #{$orange};
-  --q-white       : #{$white};
-  --q-light-grey  : #{$light-grey};
-  --q-dark-grey   : #{$dark-grey};
-  --q-font-grey   : #{$font-grey};
-  --q-light-green : #{$light-green};
+  --q-white: #{$white};
+  --q-light-grey: #{$light-grey};
+  --q-font-grey: #{$font-grey};
+}
+
+body {
+  background-color: var(--q-secondary);
 }

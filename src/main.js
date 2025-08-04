@@ -5,7 +5,6 @@ import { createPinia } from "pinia"
 import quasar from "@/assets/libs/QuasarPlugin.js"
 
 import "@/assets/scss/_colors.scss"
-import "@/assets/scss/_font.scss"
 
 const app = createApp(App)
 const pinia = createPinia()

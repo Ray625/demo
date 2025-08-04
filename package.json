@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.16.17",
+    "nanoid": "^5.1.5",
     "pinia": "3.0.1",
     "quasar": "2.18.1",
     "vue": "^3.5.17",
