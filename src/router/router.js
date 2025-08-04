@@ -6,7 +6,7 @@ const routes = [
     component: BaseLayout,
     children: [
       {
-        path: "",
+        path: "demo",
         name: "entrance",
         component: () => import("@/views/entrance.vue"),
       },
@@ -21,7 +21,6 @@ const routes = [
         name: "productUpload",
         component: () => import("@/views/products/ProductUpload.vue"),
       },
-
     ],
   },
 ]

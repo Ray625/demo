@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ray625.github.io/demo/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -26,6 +27,7 @@
     "eslint-plugin-jsdoc": "^50.6.6",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-vue": "^10.0.0",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.5.3",
     "sass-embedded": "^1.85.1",
     "vite": "^7.0.4",
